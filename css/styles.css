@@ -92,7 +92,7 @@ a, a:hover{
         background-color: var(--white);
         border-radius: 0 0 8px 8px;
         justify-content: space-between;
-        min-height 150px;
+         min-height:150px; 
     }
 
 .DSMovieinicial-card-description h3 {
@@ -114,7 +114,11 @@ a, a:hover{
     justify-content: center;
     border-radius: 4px;
 
+.dsmovieinicial-form-container{
+    padding: 40px;
+    max-width: 480 px;
 
+}
 
 }
 
