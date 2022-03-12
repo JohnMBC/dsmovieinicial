@@ -63,7 +63,7 @@ a, a:hover{
 }
 
 #dsmovieinicial-card-list {
-    padding: 40px 10px;
+    padding: 0px 10px;
 }
 
 
@@ -126,7 +126,7 @@ a, a:hover{
 
 
 
-.dsmovieinicial-btn, .DSMovieinicial-btn:hover {
+.dsmovieinicial-btn, .dsmovieinicial-btn:hover {
     width:180px;
     height: 40px;
     background-color: var(--color-primary);
@@ -183,4 +183,45 @@ color: var(--text-light-gray)
     justify-content: space-between;
 }
 
+.dsmovieinicial-pagination-container{
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+}
+.dsmovieinicial-pagination-box{
+    width: 180px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.dsmovieinicial-pagination-box p{
+    margin: 0;
+    font-size: 12px;
+    color: var(--color-primary);
+    font-weight: 400;
+}
+.dsmovieinicial-pagination-box button{
+    width: 40px;
+    height:40px;
+    border: 1px solid var(--color-primary);
+    border-radius: 4px;
+    background-color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    /* filter: brightness(0) saturate(100%) invert(23%) sepia(76%) saturate(2454%) hue-rotate(237deg) brightness(83%) contrast(85%) */
+}
+.dsmovieinicial-pagination-box button:disabled{
+    border: 1px solid var(--text-light-gray);
+
+}
+.dsmovieinicial-flip-horizontal{
+    transform: rotate(180deg);
+}
+.dsmovieinicial-pagination-box button:disabled img{
+    filter:unset;
+}
 
