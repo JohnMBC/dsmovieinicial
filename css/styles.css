@@ -7,10 +7,12 @@
     --color-primary:#4D41C0;
     --white:#fff;
     --text-light-gray:#aaa;
+    --star-yellow: #FFBB3A;
 }
 
 
 * {
+    margin: 0;
     box-sizing: border-box;
     font-family:'Open Sans',sans-serif;
 }
@@ -88,7 +90,7 @@ a, a:hover{
         background-color: var(--white);
         border-radius: 0 0 8px 8px;
         justify-content: space-between;
-         min-height:150px; 
+         min-height:220px; 
     }
 
 .dsmovieinicial-card-description h3 {
@@ -97,7 +99,32 @@ a, a:hover{
     font-weight: 700px;
     text-align: center;
 
+
 }
+.dsmovieinicial-card-description-botton{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.dsmovieinicial-card-description-botton h4{
+    font: size 16px;
+    font-weight: 700;
+    color: var(--star-yellow);
+}
+.dsmovieinicial-card-description-botton img{
+    width: 22px;
+
+
+}
+.dsmovieinicial-card-description-botton p{
+    font-size: 12px;
+    font-weight: 40;
+    color:var(--text-light-gray);
+    margin-bottom: 10px;
+}
+
+
+
 .dsmovieinicial-btn, .DSMovieinicial-btn:hover {
     width:180px;
     height: 40px;
