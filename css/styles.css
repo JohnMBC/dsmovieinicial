@@ -6,6 +6,7 @@
     --text-gray: #4a4a4a;
     --color-primary:#4D41C0;
     --white:#fff;
+    --text-light-gray:#aaa;
 }
 
 
@@ -42,11 +43,6 @@ nav{
     
     }
     
-
-
-
-
-
 a, a:hover{
     text-decoration:none;
     color: unset
@@ -64,7 +60,7 @@ a, a:hover{
     margin: right 10px;
 }
 
-#DSMovieinicial-card-list {
+#dsmovieinicial-card-list {
     padding: 40px 0
 }
 
@@ -72,19 +68,19 @@ a, a:hover{
 
 
 
-.DSMovieinicial-card {
+.dsmovieinicial-card {
     width: 100%;
 
     
 }
 
 
-.DSMovieinicial-card img {
+.dsmovieinicial-card img {
     width: 100%;
     border-radius: 8px 8px 0 0;
 }
 
-    .DSMovieinicial-card-description {
+    .dsmovieinicial-card-description {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -95,40 +91,68 @@ a, a:hover{
          min-height:150px; 
     }
 
-.DSMovieinicial-card-description h3 {
+.dsmovieinicial-card-description h3 {
     margin-bottom: 25px;
     font-size: 14px;
     font-weight: 700px;
     text-align: center;
 
 }
-.DSMovieinicial-btn, .DSMovieinicial-btn:hover {
+.dsmovieinicial-btn, .DSMovieinicial-btn:hover {
     width:180px;
     height: 40px;
     background-color: var(--color-primary);
-    color: var(--text-gray);
+    color: var(--white);
     font-size: 14px;
     font-weight: 700;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 4px;
-
+    border: 0;
+}
 .dsmovieinicial-form-container{
-    padding: 40px;
-    max-width: 480 px;
+    padding: 40px 0;
+    max-width:480px;
+
+}
+.dsmovieinicial-form-description{
+background-color: var(--white);
+padding: 20px;
+display: flex;
+flex-direction: column;
+align-items: center;
+border-radius: 0 0 8px 8px;
+
+}
+.dsmovieinicial-form{
+    width: 100%;
+}
+
+.dsmovieinicial-form-description h3 {
+
+
+font-size: 13px;
+font-weight: 700;
+margin-bottom: 20px;
+}
+.dsmovieinicial-form.group{
+    margin-bottom: 20px;
+
+}
+.dsmovieinicial-form.group-label {
+font-size:12px;
+color: var(--text-light-gray)
+
 
 }
 
+.dsmovieinicial-form-btn-container{
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
 }
-
-
-
-
-}   
-
-
-
-
 
 
